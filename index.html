@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./src/css/styles.css">
@@ -21,13 +22,15 @@
 			</nav>
 		</div>	
 	</header>
+	
 	<section id="banner">
 		<div class="wrapper">
 			<a href="#">
-				<img src="./src/images/cover-image.jpg" alt="Minimo Cover Image" class="cover-image">
+				<img class="responsive-img" src="./src/images/cover-image.jpg" alt="Minimo Cover Image" class="cover-image">
 			</a>
 		</div>
 	</section>
+	
 	<section id="content">
 		<div class="wrapper">
 			<article>
@@ -61,11 +64,43 @@
 				</section>
 			</article>
 			<aside>
+				<div class="about-the-author">
+					<div class="bio">
+						<img src="./src/images/about-me.jpg" alt="about me">
+						<h3>About me</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris </p>
+					</div>
+					<div class="icons">
+						<ul>
+							<li><a href="#"><img src="./src/images/bio/fb.png"></a></li>
+							<li><a href="#"><img src="./src/images/bio/ig.png"></a></li>
+							<li><a href="#"><img src="./src/images/bio/pinterest.png"></a></li>
+						</ul>
+					</div>
+					<div class="top-post">
+						<h3 class="section-title">Top Post</h3>
+						<ul>
+							<li>
+								<h3>A day exploring the Alps</h3>
+								<p>24 comments</p>
+							</li>
+							<li>
+								<h3>American dream</h3>
+								<p>19 comments</p>
+							</li>
+							<li>
+								<h3>Cold winter days</h3>
+								<p>15 comments</p>
+							</li>
+						</ul>
+					</div>
+				</div>
 				
 			</aside>
 		</div>
 		<div class="clearfix"></div>
 	</section>
+	
 	<section id="you-may-also-like">
 		<div class="wrapper">
 			<article>
@@ -100,18 +135,65 @@
 		</div>
 		<div class="clearfix"></div>
 	</section>
+
+	<section id="comments">
+		<div class="wrapper">
+			<div class="add-margin-left add-margin-right">
+				<h2 class="section-title">2 Comments</h2>
+				<ul id="comments-items">
+					<li>
+						<a href="" class="item-left"><img src="./src/images/john-doe.jpg" class="rounded-img"></a>
+						<div class="comment-info">
+							<h2>John Doe</h2>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo!</p>
+							<a href="#" class="reply-btn">Reply</a>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<a href="" class="item-left no-img green-color">JD</a>
+						<div class="comment-info">
+							<h2>Jane Doe</h2>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+							<a href="#" class="reply-btn">Reply</a>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<a href="" class="item-left no-img gray-color">JD</a>
+						<div class="comment-info">
+							<form>
+								<input type="text" name="comment" placeholder="Join the discussion">
+							</form>
+						</div>
+						<div class="clearfix"></div>
+					</li>
+				</ul>
+				<div class="connectedwith">
+					<ul><span class="section-title">Connected with</span>
+						<li><a href="#"><img src="./src/images/connected/twitter.png"></a></li>
+						<li><a href="#"><img src="./src/images/connected/fb.png"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</section>
+
 	<footer>
 		<div class="wrapper">
-			<nav id="footer-nav">
-				<a href="#terms-and-conditions">Terms and Conditions</a>
-				<a href="#privacy">Privacy</a>
-			</nav>
-			<ul id="social-media">
-				<span>Follow</span>
-				<li><a href="https://facebook.com" target="_blank" title="Facebook"><img src="./src/images/fb.png"></a></li>
-				<li><a href="https://twitter.com" target="_blank" title="Twitter"><img src="./src/images/twitter.png"></a></li>
-				<li><a href="https://instagram.com" target="_blank" title="Instagram"><img src="./src/images/ig.png"></a></li>
-			</ul>
+			<div class="add-margin-left">
+				<nav id="footer-nav">
+					<a href="#terms-and-conditions">Terms and Conditions</a>
+					<a href="#privacy">Privacy</a>
+				</nav>
+				<ul id="social-media">
+					<span>Follow</span>
+					<li><a href="https://facebook.com" target="_blank" title="Facebook"><img src="./src/images/fb.png"></a></li>
+					<li><a href="https://twitter.com" target="_blank" title="Twitter"><img src="./src/images/twitter.png"></a></li>
+					<li><a href="https://instagram.com" target="_blank" title="Instagram"><img src="./src/images/ig.png"></a></li>
+				</ul>
+			</div>
 		</div>
 	</footer>
 </body>

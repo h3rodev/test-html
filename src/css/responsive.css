@@ -1,18 +1,676 @@
-@media (min-width: 768px) {
-	.wrapper {
-		width: 628px;
+@media only screen and (max-width : 1200px) {
+	#navigation {
+	    margin: 35px 0;
+	}
+	#navigation ul {
+	    float: right;
+	    padding: 0;
+	    margin: 0;
+	}
+	#navigation ul li {
+	    display: inline-block;
+	    margin-right: 95px;
+	}
+	#banner {
+	    margin-bottom: 95px;
+	}
+	#content .wrapper article {
+	    width: 65%;
+	    float: left;
+	}
+	.items {
+	    padding-left: 0;
+	}
+	.items h5 {
+	    font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.items h1 {
+	    font-size: 30px;
+	    margin-bottom: 25px;
+	}
+	.items p {
+	    line-height: 20px;
+	    font-size: 12px;
+	}
+	blockquote {
+	    margin: 0 15px 15px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.photo-list li {
+	    margin-bottom: 15px;
+	}
+	.social-share {
+	    margin-top: 75px;
+	    float: right;
+	    margin-bottom: 30px;
+	}
+	#content .wrapper aside {
+	    width: 35%;
+	    float: left;
+	}
+	.about-the-author {
+	    padding-left: 35px;
+	}
+	.bio img {
+	    margin-bottom: 15px;
+	}
+	.bio h3 {
+	    font-size: 24px;
+	    margin-bottom: 20px;
+	}
+	.icons {
+	    margin-bottom: 75px;
+	}
+	.section-title {
+	    margin-bottom: 40px;
+	}
+	#content {
+	    margin-bottom: 30px;
+	}
+	#you-may-also-like {
+	    padding: 35px 0;
+	}
+	#you-may-also-like article {
+	    margin-left: 0;
+	}
+	#you-may-also-like ul {
+		margin:0 -15px;
+	}
+	#you-may-also-like ul li {
+	    width: 33.33%;
+	    float: left;
+	    margin-bottom: unset;
+	}
+	#you-may-also-like ul li div {
+	    padding: 15px;
+	}
+	#you-may-also-like ul li div h2 {
+	    font-size: 20px;
+	    margin-top: 20px;
+	}
+	#comments {
+	    padding: 30px 0;
+	}
+	.wrapper .add-margin-right {
+	    margin-right: 0;
+	}
+	.wrapper .add-margin-left {
+	    margin-left: 0;
+	}
+	#comments-items li {
+	    margin-bottom: 30px;
+	}
+	#comments-items li a {
+	    margin-right: 20px;
+	    margin-bottom: 20px;
+	    width: 72px;
+	    height: 72px;
+	}
+	.comment-info p {
+	    margin-bottom: 15px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.no-img {
+		font-size: 34px;
+		line-height: 64px;
+	}
+	form {
+	    width: calc(100% - 92px);
+	}
+	form input {
+	    padding-left: 5%;
+	    padding-bottom: 25px;
+	    padding-top: 25px;
+	    padding-right: 35%;
+	}
+	#footer-nav {
+	    float: left;
+	    margin-bottom: unset;
+	}
+	#social-media {
+		float: right;
 	}
 }
 
-@media (min-width: 992px) {
-	.wrapper {
-		width: 852px;
+@media only screen and (max-width : 979px) {
+	#navigation {
+	    margin: 35px 0;
+	}
+	#navigation ul {
+	    float: right;
+	    padding: 0;
+	    margin: 0;
+	}
+	#navigation ul li {
+	    display: inline-block;
+	    margin-right: 35px;
+	}
+	#banner {
+	    margin-bottom: 35px;
+	}
+	#content .wrapper article {
+	    width: 65%;
+	    float: left;
+	}
+	.items {
+	    padding-left: 0;
+	}
+	.items h5 {
+	    font-size: 14px;
+		margin-bottom: 25px;
+	}
+	.items h1 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+	.items p {
+	    line-height: 24px;
+    	font-size: 14px;
+	}
+	blockquote {
+	    margin: 0 25px 25px;
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+	.photo-list li {
+	    margin-bottom: 50px;
+	}
+	.social-share {
+	    margin-top: 30px;
+	    float: unset;
+	    margin-bottom: 30px;
+	}
+	#content .wrapper aside {
+	    width: 35%;
+	    float: left;
+	}
+	.about-the-author {
+	    padding-left: 35px;
+	}
+	.bio img {
+	    margin-bottom: 15px;
+	}
+	.bio h3 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+	.icons {
+	    margin-bottom: 30px;
+	}
+	.section-title {
+	    margin-bottom: 15px;
+	}
+	#content {
+	    margin-bottom: 30px;
+	}
+	#you-may-also-like {
+	    padding: 35px 0;
+	}
+	#you-may-also-like article {
+	    margin-left: 0;
+	}
+	#you-may-also-like ul {
+		margin:0 -15px;
+	}
+	#you-may-also-like ul li {
+	    width: 33.33%;
+	    float: left;
+	    margin-bottom: unset;
+	}
+	#you-may-also-like ul li div {
+	    padding: 15px;
+	}
+	#you-may-also-like ul li div h2 {
+	    font-size: 18px;
+	    margin-top: 15px;
+	}
+	#comments {
+	    padding: 30px 0;
+	}
+	.wrapper .add-margin-right {
+	    margin-right: 0;
+	}
+	.wrapper .add-margin-left {
+	    margin-left: 0;
+	}
+	#comments-items li {
+	    margin-bottom: 30px;
+	}
+	#comments-items li a {
+	    margin-right: 20px;
+	    margin-bottom: 20px;
+	    width: 72px;
+	    height: 72px;
+	}
+	.comment-info p {
+	    margin-bottom: 15px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.no-img {
+		font-size: 34px;
+		line-height: 64px;
+	}
+	form {
+	    width: calc(100% - 92px);
+	}
+	form input {
+	    padding-left: 5%;
+	    padding-bottom: 25px;
+	    padding-top: 25px;
+	    padding-right: 35%;
+	}
+	#footer-nav {
+	    float: left;
+	    margin-bottom: unset;
+	}
+	#social-media {
+		float: right;
 	}
 }
 
-@media (min-width: 1200px) {
-	.wrapper {
-		width: 1060px;
+@media only screen and (max-width : 767px) {
+	#navigation {
+	    margin: 35px 0;
 	}
-	
+	#navigation ul {
+	    float: right;
+	    padding: 0;
+	    margin: 0;
+	}
+	#navigation ul li {
+	    display: inline-block;
+	    margin-right: 15px;
+	}
+	#banner {
+	    margin-bottom: 35px;
+	}
+	#content .wrapper article {
+	    width: 100%;
+	    float: unset;
+	}
+	.items {
+	    padding-left: 0;
+	}
+	.items h5 {
+	    font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.items h1 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+	.items p {
+	    line-height: 20px;
+	    font-size: 12px;
+	}
+	blockquote {
+	    margin: 0 15px 15px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.photo-list li {
+	    margin-bottom: 15px;
+	}
+	.social-share {
+	    margin-top: 30px;
+	    float: unset;
+	    margin-bottom: 30px;
+	}
+	#content .wrapper aside {
+	    width: 100%;
+	    float: unset;
+	}
+	.about-the-author {
+	    padding-left: 0;
+	}
+	.bio img {
+	    margin-bottom: 15px;
+	}
+	.bio h3 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+	.icons {
+	    margin-bottom: 30px;
+	}
+	.section-title {
+	    margin-bottom: 15px;
+	}
+	#content {
+	    margin-bottom: 30px;
+	}
+	#you-may-also-like {
+	    padding: 35px 0;
+	}
+	#you-may-also-like article {
+	    margin-left: 0;
+	}
+	#you-may-also-like ul {
+		margin:0 -15px;
+	}
+	#you-may-also-like ul li {
+	    width: 33.33%;
+	    float: left;
+	    margin-bottom: unset;
+	}
+	#you-may-also-like ul li div {
+	    padding: 15px;
+	}
+	#you-may-also-like ul li div h2 {
+	    font-size: 18px;
+	    margin-top: 15px;
+	}
+	#comments {
+	    padding: 30px 0;
+	}
+	.wrapper .add-margin-right {
+	    margin-right: 0;
+	}
+	.wrapper .add-margin-left {
+	    margin-left: 0;
+	}
+	#comments-items li {
+	    margin-bottom: 30px;
+	}
+	#comments-items li a {
+	    margin-right: 15px;
+	    margin-bottom: 15px;
+	    width: 32px;
+	    height: 32px;
+	}
+	.comment-info p {
+	    margin-bottom: 15px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.no-img {
+	    font-size: 20px;
+		line-height: 30px;
+	}
+	form {
+	    width: calc(100% - 47px);
+	}
+	form input {
+	    padding-left: 5%;
+	    padding-bottom: 15px;
+	    padding-top: 15px;
+	    padding-right: 35%;
+	}
+	#footer-nav {
+	    float: left;
+	    margin-bottom: unset;
+	}
+	#social-media {
+		float: right;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	#navigation {
+	    margin: 35px 0;
+	}
+	#navigation ul {
+	    float: unset;
+	    padding: 0;
+	    margin: 15px 0;
+	}
+	#navigation ul li {
+	    display: block;
+	}
+	#banner {
+	    margin-bottom: 35px;
+	}
+	#content .wrapper article {
+	    width: 100%;
+	    float: unset;
+	}
+	.items {
+	    padding-left: 0;
+	}
+	.items h5 {
+	    font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.items h1 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+	.items p {
+	    line-height: 20px;
+	    font-size: 12px;
+	}
+	blockquote {
+	    margin: 0 15px 15px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.photo-list li {
+	    margin-bottom: 15px;
+	}
+	.social-share {
+	    margin-top: 30px;
+	    float: unset;
+	    margin-bottom: 30px;
+	}
+	#content .wrapper aside {
+	    width: 100%;
+	    float: unset;
+	}
+	.about-the-author {
+	    padding-left: 0;
+	}
+	.bio img {
+	    margin-bottom: 15px;
+	}
+	.bio h3 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+	.icons {
+	    margin-bottom: 30px;
+	}
+	.section-title {
+	    margin-bottom: 15px;
+	}
+	#content {
+	    margin-bottom: 30px;
+	}
+	#you-may-also-like {
+	    padding: 35px 0;
+	}
+	#you-may-also-like article {
+	    margin-left: 0;
+	}
+	#you-may-also-like ul li {
+	    width: 100%;
+	    float: unset;
+	    margin-bottom: 30px;
+	}
+	#you-may-also-like ul li div {
+	    padding: 15px;
+	}
+	#you-may-also-like ul li div h2 {
+	    font-size: 18px;
+	    margin-top: 15px;
+	}
+	#comments {
+	    padding: 30px 0;
+	}
+	.wrapper .add-margin-right {
+	    margin-right: 0;
+	}
+	.wrapper .add-margin-left {
+	    margin-left: 0;
+	}
+	#comments-items li {
+	    margin-bottom: 30px;
+	}
+	#comments-items li a {
+	    margin-right: 15px;
+	    margin-bottom: 15px;
+	    width: 32px;
+	    height: 32px;
+	}
+	.comment-info p {
+	    margin-bottom: 15px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.no-img {
+	    font-size: 20px;
+		line-height: 30px;
+	}
+	form {
+	    width: calc(100% - 47px);
+	}
+	form input {
+	    padding-left: 5%;
+	    padding-bottom: 15px;
+	    padding-top: 15px;
+	    padding-right: 35%;
+	}
+	#footer-nav {
+	    float: unset;
+	    margin-bottom: 15px;
+	}
+	#social-media {
+		float: unset;
+	}
+}
+
+@media only screen and (max-width : 320px) {
+	#navigation {
+	    margin: 35px 0;
+	}
+	#navigation ul {
+	    float: unset;
+	    padding: 0;
+	    margin: 15px 0;
+	}
+	#navigation ul li {
+	    display: block;
+	}
+	#banner {
+	    margin-bottom: 35px;
+	}
+	#content .wrapper article {
+	    width: 100%;
+	    float: unset;
+	}
+	.items {
+	    padding-left: 0;
+	}
+	.items h5 {
+	    font-size: 14px;
+		margin-bottom: 15px;
+	}
+	.items h1 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+	.items p {
+	    line-height: 20px;
+	    font-size: 12px;
+	}
+	blockquote {
+	    margin: 0 15px 15px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.photo-list li {
+	    margin-bottom: 15px;
+	}
+	.social-share {
+	    margin-top: 30px;
+	    float: unset;
+	    margin-bottom: 30px;
+	}
+	#content .wrapper aside {
+	    width: 100%;
+	    float: unset;
+	}
+	.about-the-author {
+	    padding-left: 0;
+	}
+	.bio img {
+	    margin-bottom: 15px;
+	}
+	.bio h3 {
+	    font-size: 20px;
+	    margin-bottom: 15px;
+	}
+	.icons {
+	    margin-bottom: 30px;
+	}
+	.section-title {
+	    margin-bottom: 15px;
+	}
+	#content {
+	    margin-bottom: 30px;
+	}
+	#you-may-also-like {
+	    padding: 35px 0;
+	}
+	#you-may-also-like article {
+	    margin-left: 0;
+	}
+	#you-may-also-like ul li {
+	    width: 100%;
+	    float: unset;
+	    margin-bottom: 30px;
+	}
+	#you-may-also-like ul li div {
+	    padding: 15px;
+	}
+	#you-may-also-like ul li div h2 {
+	    font-size: 18px;
+	    margin-top: 15px;
+	}
+	#comments {
+	    padding: 30px 0;
+	}
+	.wrapper .add-margin-right {
+	    margin-right: 0;
+	}
+	.wrapper .add-margin-left {
+	    margin-left: 0;
+	}
+	#comments-items li {
+	    margin-bottom: 30px;
+	}
+	#comments-items li a {
+	    margin-right: 15px;
+	    margin-bottom: 15px;
+	    width: 32px;
+	    height: 32px;
+	}
+	.comment-info p {
+	    margin-bottom: 15px;
+	    font-size: 12px;
+	    line-height: 20px;
+	}
+	.no-img {
+	    font-size: 20px;
+		line-height: 30px;
+	}
+	form {
+	    width: calc(100% - 47px);
+	}
+	form input {
+	    padding-left: 10%;
+	    padding-bottom: 15px;
+	    padding-top: 15px;
+	    padding-right: 30%;
+	}
+	#footer-nav {
+	    float: unset;
+	    margin-bottom: 15px;
+	}
+	#social-media {
+		float: unset;
+	}
 }
